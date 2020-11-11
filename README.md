@@ -1,4 +1,4 @@
-
+https://www.pluralsight.com/guides/getting-started-with-reactnative-on-android
 # ReactHello
 First React Native App  
 
@@ -75,3 +75,10 @@ changed :
 distributionUrl=https\://services.gradle.org/distributions/gradle-6.2-all.zip
 TO
 distributionUrl=https\://services.gradle.org/distributions/gradle-6.7-all.zip
+-------------
+# Error : 
+Could not initialize class org.codehaus.groovy.vmplugin.v7.Java7
+Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
+
+# Solution
+gradle clean build
