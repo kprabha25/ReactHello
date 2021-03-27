@@ -32,11 +32,11 @@ export default class Menu extends React.Component {
         </Cover>
         <TouchableOpacity
         style={{
-            position:"absolute",
+            position:"absolute", 
             top: 120,
             left: "50%",
             marginLeft: -22
-        }} onPress={this.closeMenu}>
+        }} onPress={this.closeMenu}> 
         <CloseView>
             <Ionicons name="ios-close" size={35} color="black" />
         </CloseView>
