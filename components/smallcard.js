@@ -17,7 +17,7 @@ export default class SmallCard extends React.Component {
         }}
         ></LinearGradient>
             {/* <Image source={{uri: this.props.image}}/> */}
-            { <Image source={this.props.image } /> }
+            { <Image source={{uri: this.props.image}} /> }
             <TextContainer>
                 <Ionicons name="ios-play" size={18} color="white" /> 
                 <Text>S3 E55. 16 Aug</Text>

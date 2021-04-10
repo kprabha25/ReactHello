@@ -82,3 +82,37 @@ Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
 
 # Solution
 gradle clean build
+
+# Error : Error: `createBottomTabNavigator()` has been moved to `react-navigation-tabs`. See https://reactnavigation.org/docs/bottom-tab-navigator.html for more details.
+
+# Soution : 
+
+https://reactnative.dev/docs/navigation
+
+expo install / npm install --save react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+
++ react-native-screens@3.1.0
++ react-native-gesture-handler@1.10.3
++ @react-native-community/masked-view@0.1.10
++ react-native-reanimated@2.1.0
++ react-native-safe-area-context@3.2.0
+
+Removed react-native-screens react-navigation react-navigation-stack react-navigation-tabs
+
+# Error Unable to resolve module react-navigation from C:\Prabha\Dev\React Native\ReactHello\Nav.js: react-navigation could not be found within the project.
+
+Unable to resolve module react-navigation-stack from C:\Prabha\Dev\React Native\ReactHello\Nav.js: react-navigation-stack could not be found within the project.
+
+# Solution : 
+npm install --save react-navigation react-navigation-stack react-navigation-tabs
+
+https://medium.com/weekly-webtips/adding-react-navigation-to-your-react-native-app-488dfaf271a6
+
+videoscreen  :
+//https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
+//{return <MovieCard key={index} image={data.image}></MovieCard>;}
+//{return <SmallCard key={index} image={data.image}></SmallCard>;}
+
+# Image Isseue : 
+https://medium.com/swlh/how-to-obtain-a-uri-for-an-image-asset-in-react-native-with-expo-88dfbe1023b8
